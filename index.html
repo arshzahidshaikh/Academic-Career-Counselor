@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Counselor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Arsh's Career Guidance</h1>
+      <p>Your personalized educational journey starts here.</p>
+      <p>
+        Click the chat bubble in the bottom right corner to discover the best
+        courses, colleges, and learning paths tailored to your interests.
+      </p>
+    </div>
+    <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+      Chatbot.init({
+        chatflowid: "0f87d9f2-e78a-42a6-99b4-50c5e52c29a9",
+        apiHost: "https://cloud.flowiseai.com",
+      });
+    </script>
+  </body>
+</html>
